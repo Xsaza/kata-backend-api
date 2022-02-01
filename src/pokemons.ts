@@ -46,9 +46,9 @@ export const pokemons: Pokemon[] = [
       haste: 43,
     },
     points: 50,
-    imgUrl: '',
+    imgUrl: '/imgs/squirtle.png',
   },
-  {
+{
     pokecardNumber: '054',
     name: 'Псайдак',
     description: 'Псайдак - желтый покемон, напоминающий утку или двуногого утконоса. На макушке у него три толстые пряди черных волос, а клюв широкий, плоский кремового цвета. Глаза псайдака кажутся пустыми и имеют крошечные зрачки. Ноги и хвост у него короткие, а перепончатые лапы кремового цвета. На каждой руке по три когтя.',
@@ -66,7 +66,7 @@ export const pokemons: Pokemon[] = [
       haste: 55,
     },
     points: 51,
-    imgUrl: '',
+    imgUrl: '/imgs/psyduck.png',
   },
   {
     pokecardNumber: '321',
@@ -86,7 +86,7 @@ export const pokemons: Pokemon[] = [
       haste: 60,
     },
     points: 91,
-    imgUrl: '',
+    imgUrl: '/imgs/wailord.png',
   },
   {
     pokecardNumber: '350',
@@ -106,7 +106,7 @@ export const pokemons: Pokemon[] = [
       haste: 81,
     },
     points: 79,
-    imgUrl: '',
+    imgUrl: '/imgs/milotic.png',
   },
   {
     pokecardNumber: '186',
@@ -126,7 +126,7 @@ export const pokemons: Pokemon[] = [
       haste: 70,
     },
     points: 77,
-    imgUrl: '',
+    imgUrl: '/imgs/politoed.png',
   },
   //todo ARCANE
   {
@@ -147,7 +147,7 @@ export const pokemons: Pokemon[] = [
       haste: 30,
     },
     points: 55,
-    imgUrl: '',
+    imgUrl: '/imgs/snubbull.png',
   },
   {
     pokecardNumber: '669',
@@ -167,7 +167,7 @@ export const pokemons: Pokemon[] = [
       haste: 42,
     },
     points: 41,
-    imgUrl: '',
+    imgUrl: '/imgs/flabebe.png',
   },
   {
     pokecardNumber: '700',
@@ -187,7 +187,7 @@ export const pokemons: Pokemon[] = [
       haste: 60,
     },
     points: 71,
-    imgUrl: '',
+    imgUrl: '/imgs/sylveon.png',
   },
   {
     pokecardNumber: '716',
@@ -207,7 +207,7 @@ export const pokemons: Pokemon[] = [
       haste: 60,
     },
     points: 71,
-    imgUrl: '',
+    imgUrl: '/imgs/xerneas.png',
   },
   {
     pokecardNumber: '716',
@@ -227,7 +227,7 @@ export const pokemons: Pokemon[] = [
       haste: 138,
     },
     points: 119,
-    imgUrl: '',
+    imgUrl: '/imgs/zacian.png',
   },
   // * EARTH
   {
@@ -248,7 +248,7 @@ export const pokemons: Pokemon[] = [
       haste: 40,
     },
     points: 63,
-    imgUrl: '',
+    imgUrl: '/imgs/sandshrew.png',
   },
   {
     pokecardNumber: '104',
@@ -268,7 +268,7 @@ export const pokemons: Pokemon[] = [
       haste: 35,
     },
     points: 58,
-    imgUrl: '',
+    imgUrl: '/imgs/cubone.png',
   },
   {
     pokecardNumber: '328',
@@ -288,7 +288,7 @@ export const pokemons: Pokemon[] = [
       haste: 10,
     },
     points: 50,
-    imgUrl: '',
+    imgUrl: '/imgs/trapinch.png',
   },
   {
     pokecardNumber: '232',
@@ -308,7 +308,7 @@ export const pokemons: Pokemon[] = [
       haste: 10,
     },
     points: 50,
-    imgUrl: '',
+    imgUrl: '/imgs/donphan.png',
   },
   {
     pokecardNumber: '383',
@@ -328,7 +328,7 @@ export const pokemons: Pokemon[] = [
       haste: 90,
     },
     points: 120,
-    imgUrl: '',
+    imgUrl: '/imgs/groudon.png',
   },
   // ! FIRE
   {
@@ -349,7 +349,7 @@ export const pokemons: Pokemon[] = [
       haste: 65,
     },
     points: 50,
-    imgUrl: '',
+    imgUrl: '/imgs/charmander.png',
   },
   {
     pokecardNumber: '078',
@@ -369,7 +369,7 @@ export const pokemons: Pokemon[] = [
       haste: 105,
     },
     points: 85,
-    imgUrl: '',
+    imgUrl: '/imgs/rapidash.png',
   },
   {
     pokecardNumber: '156',
@@ -389,7 +389,7 @@ export const pokemons: Pokemon[] = [
       haste: 80,
     },
     points: 65,
-    imgUrl: '',
+    imgUrl: '/imgs/quilava.png',
   },
   {
     pokecardNumber: '654',
@@ -409,7 +409,7 @@ export const pokemons: Pokemon[] = [
       haste: 73,
     },
     points: 62,
-    imgUrl: '',
+    imgUrl: '/imgs/braixen.png',
   },
   {
     pokecardNumber: '390',
@@ -429,6 +429,6 @@ export const pokemons: Pokemon[] = [
       haste: 61,
     },
     points: 52,
-    imgUrl: '',
+    imgUrl: '/imgs/chimchar.png',
   },
 ];
