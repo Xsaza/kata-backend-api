@@ -1,5 +1,5 @@
 enum PokemonElement {
-  WATER = 'WATER', // * DONE
+  WATER = 'WATER',
   ARCANE = 'ARCANE',
   EARTH = 'EARTH',
   FIRE = 'FIRE',
@@ -22,11 +22,8 @@ interface Pokemon {
   imgUrl: string;
 }
 
-// макс 4
-// очков 200
-
 export const pokemons: Pokemon[] = [
-  // ? WATER
+  // WATER
   {
     pokecardNumber: '007',
     name: 'Сквиртл',
@@ -48,7 +45,7 @@ export const pokemons: Pokemon[] = [
     points: 50,
     imgUrl: '/imgs/squirtle.png',
   },
-{
+  {
     pokecardNumber: '054',
     name: 'Псайдак',
     description: 'Псайдак - желтый покемон, напоминающий утку или двуногого утконоса. На макушке у него три толстые пряди черных волос, а клюв широкий, плоский кремового цвета. Глаза псайдака кажутся пустыми и имеют крошечные зрачки. Ноги и хвост у него короткие, а перепончатые лапы кремового цвета. На каждой руке по три когтя.',
@@ -128,7 +125,7 @@ export const pokemons: Pokemon[] = [
     points: 77,
     imgUrl: '/imgs/politoed.png',
   },
-  //todo ARCANE
+  // ARCANE
   {
     pokecardNumber: '210',
     name: 'Снаббулл',
@@ -229,7 +226,7 @@ export const pokemons: Pokemon[] = [
     points: 119,
     imgUrl: '/imgs/zacian.png',
   },
-  // * EARTH
+  // EARTH
   {
     pokecardNumber: '027',
     name: 'Сэндшрю',
@@ -330,7 +327,7 @@ export const pokemons: Pokemon[] = [
     points: 120,
     imgUrl: '/imgs/groudon.png',
   },
-  // ! FIRE
+  // FIRE
   {
     pokecardNumber: '004',
     name: 'Чармандер',
