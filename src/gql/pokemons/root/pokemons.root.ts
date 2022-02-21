@@ -1,4 +1,5 @@
 import { pokemons } from '../../../db/pokemons';
+import { pokemonTeam } from '../../../db/pokemons-team';
 import { Pokemon } from '../../../db/pokemons.model';
 
 function getPokemon({ pokecardNumber }: { pokecardNumber: string }): Pokemon | undefined {
@@ -11,8 +12,17 @@ function getPokemons({ amount, offset }: { amount: number, offset: number }) {
   return pokemons.slice(offset, endIndex);
 }
 
+function addPokemon({ pokecardNumber }: { pokecardNumber: string }) {
+  const pokemonToAdd = pokemons.find(pokemon => pokemon.pokecardNumber === pokecardNumber);
+
+  if (pokemonToAdd) { pokemons.push(pokemonToAdd) }
+
+  return pokemonToAdd;
+}
+
 
 export const pokemonsRoot = {
   pokemon: getPokemon,
-  pokemons: getPokemons
+  pokemons: getPokemons,
+  addPokemon,
 };

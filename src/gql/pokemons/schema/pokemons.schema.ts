@@ -70,6 +70,6 @@ export const pokemonsSchema = buildSchema(`
   }
 
   type Mutation {
-    addPokemon(pokemon)
+    addPokemon(pokecardNumber: ID!): Pokemon
   }
 `);
