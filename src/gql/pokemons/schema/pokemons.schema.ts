@@ -1,42 +1,5 @@
 import { buildSchema } from 'graphql';
 
-// export const userSchema = buildSchema(`
-//   type User {
-//     id: ID
-//     name: String
-//     age: Int
-//     posts: [Post]
-//   }
-
-//   type Post {
-//     id: ID
-//     title: String
-//     content: String
-//   }
-
-//   input UserInput {
-//     id: ID
-//     name: String!
-//     age: Int!
-//     posts: [PostInput]
-//   }
-
-//   input PostInput {
-//     id: ID
-//     title: String!
-//     content: String!
-//   }
-
-//   type Query {
-//     getAllUsers: [User]
-//     getUser(id: ID): User
-//   }
-
-//   type Mutation {
-//     createUser(input: UserInput): User
-//   }
-// `);
-
 export const pokemonsSchema = buildSchema(`
   enum PokemonElement {
     WATER
@@ -67,9 +30,11 @@ export const pokemonsSchema = buildSchema(`
   type Query {
     pokemon(pokecardNumber: ID!): Pokemon
     pokemons(amount: Int = Null, offset: Int = 0): [Pokemon!]!
+    pokemonsTeam: [Pokemon!]!
   }
 
   type Mutation {
-    addPokemon(pokecardNumber: ID!): Pokemon
+    addedPokemon(pokecardNumber: ID!): Pokemon
+    removedPokemon(pokecardNumber: ID!): Pokemon
   }
 `);
