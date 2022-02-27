@@ -1,12 +1,12 @@
-import { pokemons } from '../../../db/pokemons';
-import { pokemonsTeam } from '../../../db/pokemons-team';
-import { Pokemon } from '../../../db/pokemons.model';
+import { pokemons } from '../../db/pokemons';
+import { pokemonsTeam } from '../../db/pokemons-team';
+import { Pokemon } from '../../db/pokemons.model';
 
 function getPokemon({ pokecardNumber }: { pokecardNumber: string }): Pokemon | undefined {
   return pokemons.find((pokemon) => pokemon.pokecardNumber === pokecardNumber);
 };
 
-function getPokemons({ amount, offset }: { amount: number, offset: number }): Pokemon[] {
+function getPokemons({ amount, offset }: { amount: number | null, offset: number }): Pokemon[] {
   const endIndex = amount ? offset + amount : pokemons.length;
 
   return pokemons.slice(offset, endIndex);
